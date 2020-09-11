@@ -19,7 +19,7 @@ html, body {
 
 .wrapper {
     overflow: hidden;
-    min-width: 1310px;
+    min-width: 1440px;
 }
 
 .container {
@@ -88,7 +88,7 @@ ul > li {
 }
 
 .sidebar {
-    width: 50px;
+    width: 70px;
     position: absolute;
     left: 0;
     top: 0;
@@ -113,15 +113,15 @@ ul > li {
     transition-delay: 0.1s;
 }
 .sidebar__hamburger-icon {
-    width: 29px;
-    height: 29px;
+    width: 33px;
+    height: 33px;
     fill: var(--yellow);
 }
 .sidebar__hamburger {
     display: block;
     position: absolute;
     top: 27px;
-    left: 50%;
+    left: 52%;
     transform: translate(-60%);
 }
 .sidebar--opened {
